@@ -1,0 +1,45 @@
+Problema B - Pedro o trabalhador
+O Pedro trabalha no controlo de qualidade da empresa "Caixas Azevedo e Irmãos" que, como o nome indica, fabricam todo o tipo de caixa, sendo que cada caixa tem o formato de um paralelepípedo. Hoje está-se a produzir caixas para diversos eletrodomésticos. Para que uma caixa destas passe o controlo de qualidade é importante que as suas dimensões estejam corretas. Cada caixa tem uma altura de A centímetros, uma largura de L centímetros e um comprimento de C centímetros. Para passar o controlo de qualidade, é importante que a caixa tenha volume pelo menos 50 centímetros cúbicos e que a altura seja pelo menos 3 centímetros. Dadas as dimensões de uma caixa, consegues ajudar o Pedro a determinar se a caixa passa o controlo de qualidade (indicado pelo número 1 no output) ou não (indicado pelo número 0 no output)?
+
+O Problema
+Dado as dimensões A, L e C duma caixa determinar se passa pelo controlo de qualidade.
+
+Input
+Três inteiros numa linha, A, L e C, respetivamente, separados por um espaço.
+
+Output
+Uma linha com o valor 0 ou 1 consoante a caixa passa no controlo de qualidade ou não, seguido de uma mudança de linha.
+
+Restrições
+São garantidos os seguintes limites em todos os casos de teste que irão ser colocados ao programa:
+
+1 ≤ A ≤ 100	     	Altura
+1 ≤ L ≤ 100	     	Largura
+1 ≤ C ≤ 100	     	Comprimento
+
+Input do Exemplo 1
+6 3 3
+
+Output do Exemplo 1
+1
+
+Explicação do Exemplo 1
+A altura desta caixa é 6 e o seu volume é de 6*3*3 = 54, logo a caixa passa o controlo de qualidade.
+
+Input do Exemplo 2
+2 10 12
+
+Output do Exemplo 2
+0
+
+Explicação do Exemplo 2
+A altura desta caixa é 2, logo a caixa não passa o controlo de qualidade.
+
+Input do Exemplo 3
+4 3 2
+
+Output do Exemplo 3
+0
+
+Explicação do Exemplo 3
+O volume desta caixa é 24, logo a caixa não passa o controlo de qualidade.
